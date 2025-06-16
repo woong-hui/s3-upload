@@ -2,7 +2,7 @@ name: Upload Syslog Files to S3
 
 on:
   push:
-    branches: [ main ]   # main 브랜치에 push될 때마다 실행
+    branches: [ main ]
 
 jobs:
   deploy:
