@@ -27,4 +27,4 @@ jobs:
 
       - name: Upload syslog directory to S3
         run: |
-          aws s3 sync ./syslog s3://s3backupdata-bucket/syslog/ --delete
+          aws s3 sync .github/workflows/syslog s3://s3backupdata-bucket/syslog/ --delete
