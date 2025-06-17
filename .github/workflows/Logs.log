@@ -1,0 +1,12 @@
+Jun 16 14:23:34 localhost sftp-server[110817]: closedir "/"
+Jun 16 14:23:34 localhost sftp-server[110817]: opendir "/"
+Jun 16 14:23:34 localhost sftp-server[110817]: closedir "/"
+Jun 16 14:23:50 localhost sftp-server[110817]: open "/home/sftp_user/fstptest.txt" flags WRITE,CREATE,TRUNCATE mode 0644
+Jun 16 14:23:50 localhost sftp-server[110817]: close "/home/sftp_user/fstptest.txt" bytes read 0 written 31
+Jun 16 14:23:50 localhost sftp-server[110817]: open "/home/sftp_user/fstptest.txt" flags WRITE,CREATE,TRUNCATE mode 0644
+Jun 16 14:23:50 localhost sftp-server[110817]: close "/home/sftp_user/fstptest.txt" bytes read 0 written 31
+Jun 16 14:23:58 localhost sftp-server[110817]: opendir "/home/sftp_user"
+Jun 16 14:23:58 localhost sftp-server[110817]: closedir "/home/sftp_user"
+Jun 16 14:23:58 localhost sftp-server[110817]: opendir "/home/sftp_user"
+Jun 16 14:23:58 localhost sftp-server[110817]: closedir "/home/sftp_user"
+Jun 16 14:23:59 localhost sftp-server[110817]: open "/home/sftp_user/rapafile.txt" flags READ
